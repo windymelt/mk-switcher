@@ -1,0 +1,8 @@
+version: '3'
+services:
+  builder:
+    container_name: builder
+    image: dea82/avr-gcc-docker
+    working_dir: "/bench"
+    volumes:
+      - ".:/bench"
