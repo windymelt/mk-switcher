@@ -16,3 +16,7 @@ $ docker-compose run --rm builder bash
 ```shell
 $ make write
 ```
+
+## board schematic
+
+Fritzing用のソースを用意しています．(`switcher.fzz`)
